@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops</title>
+</head>
+<body>
+    <div class="container">
+        <h1>LOOPS IN JAVA SCRIPT</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero esse earum debitis neque mollitia delectus vel inventore, magni molestiae optio necessitatibus voluptatum iste molestias aut culpa quasi. Aut, impedit nesciunt repudiandae tempore magni ipsum repellat aperiam? Fugit molestias at aliquam delectus consequuntur, sint voluptatibus? Ratione, quibusdam ea. Dolor omnis quod ducimus est, illum temporibus ipsa pariatur earum atque dolorem. Necessitatibus ab et suscipit cumque libero dolor voluptatibus veritatis, odit iusto ducimus, perferendis sunt vitae repudiandae quo. In ipsa, reprehenderit eligendi cupiditate dicta iste sit ad veniam debitis facere.</p>
+    </div>
+    <script>
+        console.log("THIS IS TUTORIAL 55")
+        // let i = 0
+        // for (let i = 0; i <= 6; i++) {
+        //     console.log(i);
+            
+        // }
+
+        let friends = ["satvik", "aniruddha", "samarth", "gaurav", "bhoomika", "samiksha"]
+        for (let index = 0; index < friends.length; index++) {
+            console.log(friends[index]);
+        }    
+
+        friends.forEach(function f(elements) {
+            console.log(elements)
+        });
+
+        for (elements of friends) {
+            console.log(elements)
+        }
+
+        let employee = {
+            name : "ANKIT",
+            salary : 0,
+            channel : "EMORAMDI"
+        }
+
+        for (key in employee) {
+            console.log("the " + key +  " of employee is " + (employee[key]))
+        }
+
+
+
+    </script>
+</body>
+</html>
